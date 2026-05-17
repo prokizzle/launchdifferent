@@ -1,0 +1,10 @@
+{
+  "name": "launchdifferent",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=22"
+  }
+}

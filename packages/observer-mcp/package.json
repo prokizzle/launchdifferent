@@ -1,0 +1,23 @@
+{
+  "name": "@launchdifferent/observer-mcp",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "observer-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test --experimental-strip-types src/**/*.test.ts"
+  },
+  "dependencies": {
+    "@launchdifferent/observer": "0.1.0",
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "better-sqlite3": "^12.6.2",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
